@@ -6,7 +6,7 @@ import org.apache.ibatis.type.Alias;
 
 import java.util.List;
 import java.util.Map;
-
+@Alias("user")
 public interface UserMapper {
 
     List<User> getUserList();
