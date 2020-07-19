@@ -30,7 +30,7 @@ public class MyTest {
         }
         sqlSession.close();
     }
- /*   @Test
+    @Test
     public  void  testgetUserById()
     {
         SqlSession sqlSession = MyBatisUtil.getSession();
@@ -98,5 +98,5 @@ public class MyTest {
         System.out.println(i);
         sqlSession.commit();
         sqlSession.close();
-    }*/
+    }
 }

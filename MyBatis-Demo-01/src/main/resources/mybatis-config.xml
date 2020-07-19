@@ -37,6 +37,7 @@
     </environments>
 
     <mappers>
-        <mapper resource="mapper/usermapper.xml"/>
+        <package name="com.feng.mapper"/>
+   <!--     <mapper resource="mapper/usermapper.xml"/>-->
     </mappers>
 </configuration>
