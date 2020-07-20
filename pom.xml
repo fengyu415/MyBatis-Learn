@@ -11,7 +11,7 @@
     <modules>
         <module>MyBatis-Demo-01</module>
         <module>MyBatis-Demo-02</module>
-        <module>MyBatis-Demo-03</module>
+  
     </modules>
 
     <dependencies>
