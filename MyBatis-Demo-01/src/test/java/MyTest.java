@@ -30,7 +30,7 @@ public class MyTest {
         }
         sqlSession.close();
     }
-    @Test
+   @Test
     public  void  testgetUserById()
     {
         SqlSession sqlSession = MyBatisUtil.getSession();
@@ -39,6 +39,7 @@ public class MyTest {
         System.out.println(user);
         sqlSession.close();
     }
+
     @Test
     public  void  testgetUserByMP()
     {
@@ -72,7 +73,7 @@ public class MyTest {
     {
         SqlSession sqlSession = MyBatisUtil.getSession();
         UserMapper userMapper = sqlSession.getMapper(UserMapper.class);
-        User user1 = new User(7, "赵四", "123456");
+        User user1 = new User(8, "赵四", "123456");
         int i = userMapper.addUser(user1);
             System.out.println(i);
             sqlSession.commit();
